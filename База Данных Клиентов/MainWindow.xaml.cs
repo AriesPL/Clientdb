@@ -24,5 +24,24 @@ namespace База_Данных_Клиентов
         {
             InitializeComponent();
         }
+
+        private void ButtonNewClient_Click(object sender, RoutedEventArgs e)
+        {
+            Windows.newClient newClient = new Windows.newClient();
+            newClient.Show();
+            Hide();
+        }
+
+        private void Buttonlist_Click(object sender, RoutedEventArgs e)
+        {
+            Windows.ClientList clientList = new Windows.ClientList();
+            clientList.Show();
+            Hide();
+        }
+
+        private void ButtonExit_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

@@ -7,6 +7,17 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <StackPanel>
+            <Button Content="Новый клиент" Name="buttonNewClient" Click="ButtonNewClient_Click"
+                    FontSize="25" Width="200" Height="60"
+                    Margin="10"/>
+            <Button Content="Список" Name="buttonlist" Click="Buttonlist_Click"
+                    FontSize="25" Width="200" Height="60"
+                    Margin="10"/>
+            <Button Content="Выход" Name="buttonExit" Click="ButtonExit_Click"
+                    FontSize="25" Width="200" Height="60"
+                    Margin="10"/>
+
+        </StackPanel>
     </Grid>
 </Window>
